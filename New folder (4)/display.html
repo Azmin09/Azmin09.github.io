@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DISPLAY AND VISIBILITY</title>
+	<style>
+	*{margin:0;padding: 0px}
+   
+    .selector>p{color:green;font-size: 20px;}
+    .testing ~p{color:red;font-size: 30px;} 
+    input[type="text"]
+    {
+    	height: 30px;
+    	width:200px;
+    	margin-left:20px;
+    	border-radius:10px;
+    	border: 1px solid blue;
+    }
+    	input[placeholder="Enter Last Name"]
+    	{
+
+        font-size:25px;
+        font-weight: bold;
+        
+    	}
+    
+</style>
+</head>
+<body>
+	 
+   <div class="selector">
+   <p> This is paragraph text main div</p>
+   <p> This is paragraph text main div</p>
+   <p> This is paragraph text main div</p>
+   <div class="sub-selector">
+ <p> This is paragraph text main div</p>
+   <p> This is paragraph text main div</p>
+   <p> This is paragraph text main div</p>
+
+   </div>
+</div>
+<div class="testing">
+</div>
+<p> This is a first paragraph after testing </p>
+<p> This is a first paragraph after testing </p>
+<p> This is a first paragraph after testing </p>
+<p> This is a first paragraph after testing </p>
+<p> This is a first paragraph after testing </p>
+<p> This is a first paragraph after testing </p>
+
+<div class="attribute_selector">
+	<form>
+		<input type="text" name= "FirstName" placeholder="Enter first name"/>
+        <input type="text" name= "LastName"  placeholder="Enter Last name"/>
+
+
+
+</form>
+</div>
+
+</body>
+
+</html>
